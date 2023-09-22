@@ -10,8 +10,11 @@ public class Main {
 
     public static void main(String[] args) {
         List<Integer> nums = new ArrayList<>(List.of(10, 159, 1, 1, 2, 3, 4, 4, 5, 5, 6, 7));
+        List<String> words = new ArrayList<>(List.of("10", "159", "1", "1", "2", "3", "4",
+                "4", "5", "5", "6", "7"));
         returnEvenDigits(nums);
         printEvenWithoutRepeat(nums);
+        printUniqueWord(words);
     }
 
     public static void returnEvenDigits(List<Integer> value) {
@@ -34,6 +37,11 @@ public class Main {
             }
         }
         System.out.println();
+    }
+
+    public static void printUniqueWord(List<String> words) {
+        Set<String> setWords = new HashSet<>(words);
+        System.out.print(setWords + "\n");
     }
 }
 
