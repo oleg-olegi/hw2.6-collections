@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6804673-7316-4b71-b6f9-e1977e5d5231" name="Changes" comment="evenDigits method">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw2.6-collections.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/start/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e6804673-7316-4b71-b6f9-e1977e5d5231" name="Changes" comment="evenDigits method without repeats" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695367192494</updated>
-      <workItem from="1695367195553" duration="4147000" />
+      <workItem from="1695367195553" duration="4466000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1695367506701</created>
@@ -89,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695367506701</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="evenDigits method without repeats">
+      <created>1695371625783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695371625783</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="evenDigits method" />
-    <option name="LAST_COMMIT_MESSAGE" value="evenDigits method" />
+    <MESSAGE value="evenDigits method without repeats" />
+    <option name="LAST_COMMIT_MESSAGE" value="evenDigits method without repeats" />
   </component>
 </project>
