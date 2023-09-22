@@ -13,17 +13,17 @@ public class Main {
         List<String> words = new ArrayList<>(List.of("10", "159", "1", "1", "2", "3", "4",
                 "4", "5", "5", "6", "7"));
         List<String> strings = new ArrayList<>(List.of("один", "два", "два", "три", "три", "три"));
-        returnEvenDigits(nums);
+        returnNotEvenDigits(nums);
         printEvenWithoutRepeat(nums);
         printUniqueWord(words);
         printDoubles(words);
     }
 
-    public static void returnEvenDigits(List<Integer> value) {
+    public static void returnNotEvenDigits(List<Integer> value) {
         value.forEach(new Consumer<Integer>() {
             @Override
             public void accept(Integer integer) {
-                if (integer % 2 == 0) {
+                if (integer % 2 != 0) {
                     System.out.print(integer + " ");
                 }
             }
