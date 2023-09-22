@@ -12,9 +12,11 @@ public class Main {
         List<Integer> nums = new ArrayList<>(List.of(10, 159, 1, 1, 2, 3, 4, 4, 5, 5, 6, 7));
         List<String> words = new ArrayList<>(List.of("10", "159", "1", "1", "2", "3", "4",
                 "4", "5", "5", "6", "7"));
+        List<String> strings = new ArrayList<>(List.of("один", "два", "два", "три", "три", "три"));
         returnEvenDigits(nums);
         printEvenWithoutRepeat(nums);
         printUniqueWord(words);
+        printDoubles(words);
     }
 
     public static void returnEvenDigits(List<Integer> value) {
@@ -43,7 +45,22 @@ public class Main {
         Set<String> setWords = new HashSet<>(words);
         System.out.print(setWords + "\n");
     }
+
+    public static void printDoubles(List<String> words) {
+        List<String> copyList = new ArrayList<>(words);
+        for (int i = 0; i < copyList.size(); i++) {
+            int counter = 1;
+            for (int j = i + 1; j < copyList.size(); j++) {
+                if (copyList.get(j).equals(copyList.get(i))) {
+                    copyList.remove(j);
+                    counter++;
+                }
+            }
+            System.out.print(counter + " ");
+        }
+    }
 }
+
 
 
 
